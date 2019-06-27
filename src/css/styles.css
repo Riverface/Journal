@@ -1,0 +1,74 @@
+@import "https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css";
+
+.entry{
+  padding: 10px;
+  border:1px outset;
+  border-radius: 20px;
+  height: inherit;
+  border-top: 0px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+
+
+}
+.entrylabel{
+  border:0px outset;
+  border-top-width:1px;
+  border-right-width: 1px;
+  border-left-width: 1px;
+  border-bottom: 0;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  height: 20px;
+}
+.counts{
+grid-column: 2;
+grid-row:1;
+
+}
+.entrybody{
+
+  width: 500px;
+background-color: green;
+  float:right;
+  border: 1px solid;
+  border-radius: 20px;
+  padding:10px;
+  height: 300px;
+  background-color: lightgreen;
+    overflow: auto;
+}
+
+.main{
+  height:300px;
+ margin-top:0px;
+
+}
+
+.journalentries{
+height:400px;
+
+margin-top:50px;
+
+}
+.contents{
+  float:left;
+  padding:10px;
+  width:400px;
+
+}
+.wrapper{
+
+
+}
+.tiny{
+height: 100px;
+overflow-y: hidden;
+overflow-x: hidden;
+}
+.titledate{
+
+}
+.gist{
+margin-left: 20px;
+}
